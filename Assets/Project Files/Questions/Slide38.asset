@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Name: Slide38
+  m_EditorClassIdentifier: 
+  questionText: What is the correct length of the needle?
+  referenceImage: {fileID: 0}
+  explanationText: 'The least count of the paper scale is 0.5 cm
+
+
+    So the length
+    of the needle = 2 cm + 0.5 cm = 2.5 cm'
+  options:
+  - '2.5 cm '
+  - 2.0 cm
+  - 3.0 cm
+  - 2.4 cm
+  correctOptionIndex: 0
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1

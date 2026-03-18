@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Name: Slide17
+  m_EditorClassIdentifier: 
+  questionText: Intersections of this diagonal line with lines parallel to AB at
+    A4, A3, A2 and A1 are respectively at 0.2cm, 0.4 cm, 0.6 cm and 0.8 cm.
+  referenceImage: {fileID: 0}
+  explanationText: 'The diagonal line divides 1 cm into five equal divisions. According
+    to the law of proportional similarity, for 5 equal divisions, the given line
+    will be divided into sections of lengths 0.2 cm. As a result, 0.2 cm is the least
+    count of the scale in this case.
+
+
+    Hence the intercepts must be at 0.2 cm,
+    0.4 cm, 0.6 cm and 0.8 cm marks, respectively.'
+  options:
+  - True
+  - False
+  correctOptionIndex: 0
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1
