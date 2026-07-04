@@ -9,20 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Page_4
   m_EditorClassIdentifier: 
-  questionText: Out of the following ways, which is the correct way to place a pen
-    on the paper scale to measure its length?
+  questionText: 
   referenceImage: {fileID: 0}
-  explanationText: The pen should be placed along one of the horizontal lines such
-    that the tip of the pen should be on the diagonal and the other end should be
-    on any vertical line.
-  options:
-  - P
-  - Q
-  - R
-  - S
+  explanationText: 
+  options: []
   correctOptionIndex: 0
   correctDropId: 
   correctValue: 0

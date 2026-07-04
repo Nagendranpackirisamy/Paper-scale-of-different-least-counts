@@ -9,21 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Slide20
   m_EditorClassIdentifier: 
-  questionText: What is the length of the needle?
+  questionText: 
   referenceImage: {fileID: 0}
-  explanationText: 'The least count of the paper scale is 0.2 cm
-
-    So the length
-    of the needle = 3 cm + 0.2+ 0.2 = 3.4 cm'
-  options:
-  - 3.6 cm
-  - 3.4 cm
-  - 3.8 cm
-  - 3.2 cm
-  correctOptionIndex: 1
+  explanationText: 
+  options: []
+  correctOptionIndex: 0
   correctDropId: 
   correctValue: 0
   tolerance: 0.1

@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Page_5
   m_EditorClassIdentifier: 
-  questionText: Drag and place the given pen on the paper scale at the highlighted
-    place to measure its length. After placing the pen at the correct place, record
-    the correct value of the pen's length.
+  questionText: 
   referenceImage: {fileID: 0}
   explanationText: 
   options: []

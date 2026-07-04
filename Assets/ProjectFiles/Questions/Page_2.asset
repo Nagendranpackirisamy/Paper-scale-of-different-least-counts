@@ -9,20 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba18922ef01d4d4c8990ab10d716134, type: 3}
+  m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Page_2
   m_EditorClassIdentifier: 
-  questionText: ' In the diagram a paper scale and a pencil (P''P) are there. Find
-    the length of the pencil using the paper scale'
+  questionText: 
   referenceImage: {fileID: 0}
-  explanationText: The least count of paper scale is 0.2 cm So length of the pencil
-    = 3 cm + 4 x 0.2 cm = 3.8 cm
-  options:
-  - 3.2 cm
-  - 3.8 cm
-  - 3.6 cm
-  - 3.3 cm
-  correctOptionIndex: 1
+  explanationText: 
+  options: []
+  correctOptionIndex: 0
   correctDropId: 
   correctValue: 0
   tolerance: 0.1
