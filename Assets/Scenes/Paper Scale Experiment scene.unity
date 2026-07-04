@@ -961,6 +961,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17203409}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &17256539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9086242031481382896, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+  m_PrefabInstance: {fileID: 466855403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &22760281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,7 +3543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &79015221
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9550,7 +9561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &210452638
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12701,7 +12712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &303936301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15497,6 +15508,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1598446545}
+  - {fileID: 828670763}
+  - {fileID: 696436648}
+  - {fileID: 1430533963}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &381994052
@@ -18837,6 +18851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Common ingo pannel
       objectReference: {fileID: 0}
+    - target: {fileID: 2841512144524212755, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -19150,7 +19168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &471344067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20940,7 +20958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &531588371
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21103,7 +21121,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &532243998
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23769,7 +23787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &611593871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25565,6 +25583,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1383706002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &657596897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1105025981}
+    m_Modifications:
+    - target: {fileID: 2841512144524212755, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_Name
+      value: Common ingo pannel_Right_Side
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841512144524212755, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545082571168338836, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 48.899902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_Pivot.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 753.0459
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 137.8303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+--- !u!224 &657596898 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8308125967715299549, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+  m_PrefabInstance: {fileID: 657596897}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &660483406
 GameObject:
   m_ObjectHideFlags: 0
@@ -26141,7 +26281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &676184093
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26395,7 +26535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &683509536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26996,6 +27136,171 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695031584}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &696436647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696436648}
+  - component: {fileID: 696436649}
+  m_Layer: 0
+  m_Name: Page_Assest_Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &696436648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696436647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 381578633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &696436649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696436647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a43899080d35334382abfd2bbf4b403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.PageAssetController
+  slideController: {fileID: 828670762}
+  rules:
+  - pageNumber: 1
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 2
+    targetObjects:
+    - {fileID: 984958523}
+    - {fileID: 549980981}
+  - pageNumber: 3
+    targetObjects:
+    - {fileID: 984958523}
+    - {fileID: 876765476}
+  - pageNumber: 4
+    targetObjects:
+    - {fileID: 984958523}
+    - {fileID: 155374155}
+  - pageNumber: 5
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 6
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 7
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 8
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 9
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 10
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 11
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 12
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 13
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 14
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 15
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 16
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 17
+    targetObjects:
+    - {fileID: 111400827}
+  - pageNumber: 18
+    targetObjects:
+    - {fileID: 1117387816}
+  - pageNumber: 19
+    targetObjects:
+    - {fileID: 2099095396}
+    - {fileID: 984958523}
+  - pageNumber: 20
+    targetObjects:
+    - {fileID: 258768153}
+  - pageNumber: 21
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 22
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 23
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 24
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 25
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 26
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 27
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 28
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 29
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 30
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 31
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 32
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 33
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 34
+    targetObjects:
+    - {fileID: 984958523}
+  - pageNumber: 35
+    targetObjects:
+    - {fileID: 105345471}
+  - pageNumber: 36
+    targetObjects:
+    - {fileID: 1895408741}
+  - pageNumber: 37
+    targetObjects:
+    - {fileID: 1726929367}
+    - {fileID: 984958523}
+  - pageNumber: 38
+    targetObjects:
+    - {fileID: 1068805586}
 --- !u!1 &701761138
 GameObject:
   m_ObjectHideFlags: 0
@@ -31192,8 +31497,6 @@ MonoBehaviour:
   steps:
   - pageNumber: 1
     cameraPoint: {fileID: 160581150}
-    slideUI: {fileID: 1036037694}
-    canvasGroup: {fileID: 1036037696}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31246,8 +31549,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 2
     cameraPoint: {fileID: 808301548}
-    slideUI: {fileID: 549980981}
-    canvasGroup: {fileID: 549980983}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31300,8 +31601,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 3
     cameraPoint: {fileID: 808301548}
-    slideUI: {fileID: 876765476}
-    canvasGroup: {fileID: 876765478}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31318,8 +31617,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 4
     cameraPoint: {fileID: 2029851168}
-    slideUI: {fileID: 155374155}
-    canvasGroup: {fileID: 155374157}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31360,8 +31657,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 5
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 1705969476}
-    canvasGroup: {fileID: 1705969480}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31414,8 +31709,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 6
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 1194269479}
-    canvasGroup: {fileID: 1194269481}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31504,8 +31797,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 7
     cameraPoint: {fileID: 1671823531}
-    slideUI: {fileID: 1390796176}
-    canvasGroup: {fileID: 1390796178}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31618,8 +31909,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 8
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 599782713}
-    canvasGroup: {fileID: 599782715}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31648,8 +31937,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 9
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 1082875529}
-    canvasGroup: {fileID: 1082875531}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31678,8 +31965,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 10
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 532525412}
-    canvasGroup: {fileID: 532525414}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31708,8 +31993,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 11
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 937025013}
-    canvasGroup: {fileID: 937025015}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31762,8 +32045,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 12
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 1535707247}
-    canvasGroup: {fileID: 1535707249}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31792,8 +32073,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 13
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 1648986147}
-    canvasGroup: {fileID: 1648986149}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31834,8 +32113,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 14
     cameraPoint: {fileID: 1030697728}
-    slideUI: {fileID: 1891365144}
-    canvasGroup: {fileID: 1891365146}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31888,8 +32165,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 15
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 29830197}
-    canvasGroup: {fileID: 29830199}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -31918,8 +32193,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 16
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 1001314042}
-    canvasGroup: {fileID: 1001314044}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31936,8 +32209,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 17
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 111400827}
-    canvasGroup: {fileID: 111400829}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31966,8 +32237,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 18
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 1117387816}
-    canvasGroup: {fileID: 1117387818}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -31996,8 +32265,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 19
     cameraPoint: {fileID: 2012918930}
-    slideUI: {fileID: 2099095396}
-    canvasGroup: {fileID: 2099095398}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -32038,8 +32305,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 20
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 258768153}
-    canvasGroup: {fileID: 258768155}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32080,8 +32345,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 21
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 1959991980}
-    canvasGroup: {fileID: 1959991982}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32194,8 +32457,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 22
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 1757964482}
-    canvasGroup: {fileID: 1757964484}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32272,8 +32533,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 23
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 969577867}
-    canvasGroup: {fileID: 969577869}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32350,8 +32609,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 24
     cameraPoint: {fileID: 1671823531}
-    slideUI: {fileID: 79015220}
-    canvasGroup: {fileID: 79015222}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32452,8 +32709,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 25
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 1134671266}
-    canvasGroup: {fileID: 1134671268}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32494,8 +32749,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 26
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 471344066}
-    canvasGroup: {fileID: 471344068}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32524,8 +32777,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 27
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 303936300}
-    canvasGroup: {fileID: 303936302}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32554,8 +32805,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 28
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 683509535}
-    canvasGroup: {fileID: 683509537}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32608,8 +32857,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 29
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 676184092}
-    canvasGroup: {fileID: 676184094}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32638,8 +32885,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 30
     cameraPoint: {fileID: 1817670714}
-    slideUI: {fileID: 210452637}
-    canvasGroup: {fileID: 210452639}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32680,8 +32925,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 31
     cameraPoint: {fileID: 1030697728}
-    slideUI: {fileID: 532243997}
-    canvasGroup: {fileID: 532243999}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32734,8 +32977,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 32
     cameraPoint: {fileID: 1255512914}
-    slideUI: {fileID: 611593870}
-    canvasGroup: {fileID: 611593872}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32776,8 +33017,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 33
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 531588370}
-    canvasGroup: {fileID: 531588372}
     onNextClicked:
       m_PersistentCalls:
         m_Calls:
@@ -32818,8 +33057,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 34
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 105345471}
-    canvasGroup: {fileID: 105345473}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -32848,8 +33085,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 35
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 1895408741}
-    canvasGroup: {fileID: 1895408743}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -32878,8 +33113,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 36
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 1726929367}
-    canvasGroup: {fileID: 1726929369}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -32920,8 +33153,6 @@ MonoBehaviour:
     calculatorObject: {fileID: 0}
   - pageNumber: 37
     cameraPoint: {fileID: 640595816}
-    slideUI: {fileID: 1068805586}
-    canvasGroup: {fileID: 1068805588}
     onNextClicked:
       m_PersistentCalls:
         m_Calls: []
@@ -32951,12 +33182,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828670761}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2037635, y: 1.0276735, z: 0.11240546}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -813.3585, y: -823.3831, z: -0.89913946}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 381578633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &830534541
 GameObject:
@@ -36914,7 +37145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &969577868
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37573,6 +37804,11 @@ Transform:
   - {fileID: 2028100580}
   m_Father: {fileID: 1842638779}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &984958523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2841512144524212755, guid: e74a9aa8333f8084da98c4f995adf155, type: 3}
+  m_PrefabInstance: {fileID: 466855403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &985441106
 GameObject:
   m_ObjectHideFlags: 0
@@ -42069,6 +42305,7 @@ RectTransform:
   - {fileID: 1068805587}
   - {fileID: 583245026}
   - {fileID: 466855404}
+  - {fileID: 657596898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -43103,7 +43340,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1134671267
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54678,6 +54915,296 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1430533962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430533963}
+  - component: {fileID: 1430533964}
+  m_Layer: 0
+  m_Name: Slide_UI_Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1430533963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430533962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 381578633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1430533964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430533962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a0d386389bc534f9c9227a56338eb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.SlideUIController
+  slideController: {fileID: 828670762}
+  pageTextUI: {fileID: 17256539}
+  commonImageRect: {fileID: 466855404}
+  defaultAnchoredPosition: {x: 50.00003, y: -65.00006}
+  defaultSizeDelta: {x: 753.0459, y: 137.8303}
+  defaultAnchorMin: {x: 0, y: 1}
+  defaultAnchorMax: {x: 0, y: 1}
+  defaultPivot: {x: 0, y: 1}
+  pageUIData:
+  - pageNumber: 1
+    pageText: Select the components required to perform this experiment.
+    overrideRect: 0
+    anchoredPosition: {x: 50.00003, y: -65.00006}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 2
+    pageText: Drag and drop the white sheet of paper onto the table.
+    overrideRect: 1
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 3
+    pageText: Click on the the white paper sheet in the middle to fold it along its
+      length.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 4
+    pageText: Drag and drop the metre scale along the length of the paper.
+    overrideRect: 1
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 5
+    pageText: Click on the pencil to place it along the metre scale. Then drag it
+      to draw a line AB, of length 30 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 6
+    pageText: Click on the pencil first, then mark very small dots by dragging it
+      after every 1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 7
+    pageText: Write 0, 1, 2 .... 30 in the boxes near each successive dot.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 8
+    pageText: Click on the metre scale to fix it perpendicular to line AB at point
+      A.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 9
+    pageText: Draw a straight line of 5 cm length at point O, perpendicular to line
+      AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 10
+    pageText: Click on the metre scale to move it to point 1 parallel to the line
+      drawn.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 11
+    pageText: Drag the pencil to draw a straight line of 5 cm length at point 1,
+      perpendicular to line AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 12
+    pageText: Click on the metre scale and then drag the pencil to draw straight
+      lines, each 5 cm in length at remaining dot marks, perpendicular to line AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 13
+    pageText: Drag and drop the pencil to mark very small dots on line AD after every
+      1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 14
+    pageText: Drag and drop the pencil to mark very small dots on line BC after every
+      1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 15
+    pageText: 'Drag the pencil to draw 5 thin, sharp lines
+
+      parallel to line
+      AB by connecting points A<sub>1</sub> and
+
+      B<sub>1</sub> , A<sub>2</sub>
+      and B<sub>2</sub> , A<sub>3</sub>  and B<sub>3</sub> , A<sub>4</sub>  and B<sub>4</sub>
+      , and D and C.'
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 16
+    pageText: 'Join point D with the dot at 1 cm mark on line AB
+
+      with the
+      help of the pencil.'
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 17
+    pageText: Intersections of this diagonal line with lines parallel
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 18
+    pageText: Intersections of this diagonal line with lines parallel
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 19
+    pageText: Place the needle on the paper scale so that one end of the needle touches
+      the diagonal line and the other end touches one of the 30 lines perpendicular
+      to line AB.
+    overrideRect: 1
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 20
+    pageText: Place the needle on the paper scale so that one end of the needle touches
+      the diagonal line and the other end touches one of the 30 lines perpendicular
+      to line AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 21
+    pageText: Turn the white paper sheet by clicking along its length to see the
+      other half.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 22
+    pageText: Drag and drop the metre scale along the length of the paper.
+    overrideRect: 1
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 23
+    pageText: Drag the pencil along the metre scale and draw a line AB, of length
+      30 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 24
+    pageText: Mark very small dots on line AB by dragging the pencil after every
+      1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 25
+    pageText: Write 0, 1, 2 .... 30 in the boxes near each successive dot.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 26
+    pageText: Click on the metre scale to fix it perpendicular to line AB at point
+      A.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 27
+    pageText: Draw a straight line of 2 cm length perpendicular to line AB at point
+      O.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 28
+    pageText: Click on the metre scale to move it to point 1 parallel to the line
+      drawn.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 29
+    pageText: With the help of the pencil draw a straight line of 2 cm length perpendicular
+      to line AB at point 1.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 30
+    pageText: Similarly, draw straight lines each 2 cm in length, Perpendicular to
+      line AB at the remaining dot marks.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 31
+    pageText: Mark very small dot on line AD by clicking the pencil after 1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 32
+    pageText: Mark very small dot on line BC by clicking the pencil after 1 cm.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 33
+    pageText: Draw 2 thin, sharp lines parallel to line AB at distances of 1 cm and
+      2 cm by connecting points A<sub>1</sub> and B<sub>1</sub>, D and C.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 34
+    pageText: Join point D with the dot at 1 cm mark on line AB with the help of
+      the pencil.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 35
+    pageText: Join point D with the dot at 1 cm mark on line AB with the help of
+      the pencil.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 36
+    pageText: Join point D with the dot at 1 cm mark on line AB with the help of
+      the pencil.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 37
+    pageText: Drag and drop the needle on the paper scale so that one end of the
+      needle touches the diagonal line and the other end touches one from the 30
+      lines perpendicular to line AB.
+    overrideRect: 1
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 38
+    pageText: Drag and drop the needle on the paper scale so that one end of the
+      needle touches the diagonal line and the other end touches one from the 30
+      lines perpendicular to line AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
+  - pageNumber: 39
+    pageText: Drag and drop the needle on the paper scale so that one end of the
+      needle touches the diagonal line and the other end touches one from the 30
+      lines perpendicular to line AB.
+    overrideRect: 0
+    anchoredPosition: {x: 1100, y: -65}
+    sizeDelta: {x: 753.0459, y: 137.8303}
 --- !u!1001 &1434362657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66229,7 +66756,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1757964483
 RectTransform:
   m_ObjectHideFlags: 0
@@ -72733,7 +73260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1959991981
 RectTransform:
   m_ObjectHideFlags: 0
@@ -87663,7 +88190,6 @@ SceneRoots:
   - {fileID: 762738572}
   - {fileID: 1162636309}
   - {fileID: 831290681}
-  - {fileID: 828670763}
   - {fileID: 801527208}
   - {fileID: 1524306085}
   - {fileID: 168555045}
