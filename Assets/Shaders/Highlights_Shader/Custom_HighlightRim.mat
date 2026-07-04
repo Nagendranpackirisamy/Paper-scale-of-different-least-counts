@@ -10,7 +10,7 @@ Material:
   m_Name: Custom_HighlightRim
   m_Shader: {fileID: 4800000, guid: ac60560af180c4d4cbbf0b05cb2511bc, type: 3}
   m_Parent: {fileID: 2100000, guid: 7e0a9887800e97a419995186ad003b7e, type: 2}
-  m_ModifiedSerializedProperties: 24
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -26,9 +26,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Intensity: 5
-    - _Opacity: 0
+    - _Opacity: 0.5
     - _PulseSpeed: 5
-    - _PulseStrength: 0
+    - _PulseStrength: 0.182
     - _WaveScale: 5.41
     - _WaveSpeed: 5
     m_Colors:
