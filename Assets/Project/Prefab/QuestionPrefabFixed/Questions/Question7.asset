@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
+  m_Name: Question7
+  m_EditorClassIdentifier: 
+  questionText: 7. According to the figure, find X?
+  referenceImage: {fileID: 0}
+  explanationText: "From geometry the angle of incidence is\r\ni=90\xB0-45\xB0\r\n=
+    45\xB0\r\nFrom the second law of reflection of light, the angle of incidence
+    is equal to the angle of reflection.\r\nHence r = 45\xB0\r\nAnd x = 90\xB0 -
+    45\xB0\r\n=45\xB0\r\n"
+  options:
+  - "22.5\xB0 "
+  - "45\xB0 "
+  - "67.5\xB0 "
+  - "90\xB0 "
+  correctOptionIndex: 1

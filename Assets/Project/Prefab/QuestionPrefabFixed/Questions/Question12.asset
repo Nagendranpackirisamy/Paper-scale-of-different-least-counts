@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
+  m_Name: Question12
+  m_EditorClassIdentifier: 
+  questionText: '12. The set-up shows the correct position of
+
+    mirrors so that
+    the light hits the target.'
+  referenceImage: {fileID: 0}
+  explanationText: "The parallel light beam from the flashlight is falling perpendicular
+    to mirror 1. Hence the angle of incidence and the angle of reflection both are
+    0\xB0. So the light beam must retrace the path and should fall back on the flashlight.
+    But the diagram wrongly shows it falling on another mirror.\r\n"
+  options:
+  - True
+  - False
+  - Maybe
+  - None of the above
+  correctOptionIndex: 1
