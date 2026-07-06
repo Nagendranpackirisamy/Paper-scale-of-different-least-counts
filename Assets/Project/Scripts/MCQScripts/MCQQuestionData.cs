@@ -17,11 +17,4 @@ public class MCQQuestionData : ScriptableObject
     public string[] options;
     public int correctOptionIndex;
 
-    // ---------------- Drag & Drop ----------------
-    public string correctDropId;  
-    // Example: "EnginePart_A"
-
-    // ---------------- Value / Animation Based ----------------
-    public float correctValue;
-    public float tolerance = 0.1f;
 }

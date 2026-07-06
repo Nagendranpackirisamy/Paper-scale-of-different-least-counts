@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
+  m_Name: Question36
+  m_EditorClassIdentifier: 
+  questionText: Why is the least count of the paper scale 0.5 cm?
+  referenceImage: {fileID: 0}
+  explanationText: The diagonal line from D divides 1 cm in two divisions. So A1
+    intersects at 0.5 cm length.
+  options:
+  - 'Since the scale has 30 divisions in 30 cm  '
+  - 'Since the diagonal line from D divides 1 cm into two similar divisions  '
+  - Since the diagonal line from D divides 1 cm into three similar divisions
+  - None of these
+  correctOptionIndex: 0

@@ -10,18 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
-  m_Name: Question1
+  m_Name: Question3
   m_EditorClassIdentifier: 
-  questionText: '1. The angle between the reflected ray and the
-
-    normal at the
-    point of incidence is called______'
+  questionText: How do honeybees help nature and humans?
   referenceImage: {fileID: 0}
-  explanationText: The angle between the normal and the reflected ray is known as
-    the angle of reflection.
+  explanationText: Honeybees make honey, which is a healthy food. While collecting
+    nectar from flowers, they also help in pollination.
   options:
-  - The glance angle
-  - 'The angle of reflection '
-  - The angle of incidence
-  - The angle of emergence
-  correctOptionIndex: 1
+  - By making honey
+  - By helping in pollination
+  - By producing silk
+  - By making honey and helping in pollination
+  correctOptionIndex: 3
