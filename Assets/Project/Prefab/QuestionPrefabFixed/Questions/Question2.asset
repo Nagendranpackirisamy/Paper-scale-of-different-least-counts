@@ -10,18 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d01fd2d64a9249049aaa77d5c12a82fe, type: 3}
-  m_Name: Question38
+  m_Name: Question2
   m_EditorClassIdentifier: 
-  questionText: What is the correct length of the needle?
+  questionText: "2. A line that is drawn at a right angle (90\xB0) to a     \r\nmirror
+    is_____"
   referenceImage: {fileID: 0}
-  explanationText: 'The least count of the paper scale is 0.5 cm
-
-
-    So the length
-    of the needle = 2 cm + 0.5 cm = 2.5 cm'
+  explanationText: The line drawn perpendicular to the mirror is the normal.
   options:
-  - 2.5 cm
-  - 2.0 cm
-  - 3.0 cm
-  - 2.4 cm
-  correctOptionIndex: 0
+  - The reflected ray
+  - The normal
+  - The incidence ray
+  - The light ray
+  correctOptionIndex: 1
