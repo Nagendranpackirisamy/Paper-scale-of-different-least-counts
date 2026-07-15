@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -8,8 +9,7 @@ public class NumpadController : MonoBehaviour
 {
     // -------- PERSISTENT MEMORY --------
 
-    private static Dictionary<int, bool> solvedSlides
-        = new Dictionary<int, bool>();
+    private static Dictionary<int, bool> solvedSlides = new Dictionary<int, bool>();
 
     [Header("Slide Binding")]
     public int slidePageNumber;
@@ -17,7 +17,7 @@ public class NumpadController : MonoBehaviour
     [Header("Input Field")]
     public TMP_InputField inputField;
 
-    [Header("Answer Settings")] 
+    [Header("Answer Settings")]
     public float correctValue = 10f;
     public float tolerance = 0.1f;
 
@@ -28,17 +28,30 @@ public class NumpadController : MonoBehaviour
     public float feedbackDuration = 1.5f;
 
     [Header("Slide Manager")]
-    public paperScaleOfDifferentLeastCounts. SlideCameraController slideManager;
+    public paperScaleOfDifferentLeastCounts.SlideCameraController slideManager;
+
+    [Header("Auto Fill")]
+    public Button autoFillButton;
+    public float autoFillVisibleTime = 5f;
+
+    [Header("Events")]
+    public UnityEvent OnCorrectAnswer;
+    public UnityEvent OnWrongAnswer;
+    public UnityEvent OnAutoFillShown;
+    public UnityEvent OnAutoFillUsed;
 
     private string currentInput = "";
     private bool hasDecimal = false;
     private int maxLength = 4;
 
     private bool isLocked = false;
+    private int wrongAttempts = 0;
+
+    private Coroutine autoFillRoutine;
 
     void OnEnable()
     {
-        // ?? Check if already solved before
+        // Check if already solved before
         if (solvedSlides.ContainsKey(slidePageNumber) &&
             solvedSlides[slidePageNumber])
         {
@@ -48,13 +61,20 @@ public class NumpadController : MonoBehaviour
         }
         else
         {
-            Clear();
+            currentInput = "";
+            hasDecimal = false;
+            wrongAttempts = 0;
+
             isLocked = false;
             inputField.readOnly = false;
+            UpdateField();
         }
 
         if (feedbackImage != null)
             feedbackImage.gameObject.SetActive(false);
+
+        if (autoFillButton != null)
+            autoFillButton.gameObject.SetActive(false);
     }
 
     // -------- DIGITS --------
@@ -112,15 +132,73 @@ public class NumpadController : MonoBehaviour
 
         if (correct)
         {
-            // ?? Permanently lock
-            isLocked = true;
-            inputField.readOnly = true;
+            CompleteCorrectAnswer();
+        }
+        else
+        {
+            OnWrongAnswer?.Invoke();
 
-            solvedSlides[slidePageNumber] = true;
+            wrongAttempts++;
 
-            slideManager.EnableNextButton();
+            if (wrongAttempts >= 3 && autoFillButton != null)
+            {
+                if (autoFillRoutine != null)
+                    StopCoroutine(autoFillRoutine);
+
+                autoFillRoutine = StartCoroutine(ShowAutoFillButton());
+            }
         }
     }
+
+    // -------- AUTO FILL --------
+
+    IEnumerator ShowAutoFillButton()
+    {
+        autoFillButton.gameObject.SetActive(true);
+
+        OnAutoFillShown?.Invoke();
+
+        yield return new WaitForSeconds(autoFillVisibleTime);
+
+        autoFillButton.gameObject.SetActive(false);
+    }
+
+    public void AutoFillAnswer()
+    {
+        if (isLocked) return;
+
+        if (autoFillRoutine != null)
+            StopCoroutine(autoFillRoutine);
+
+        autoFillButton.gameObject.SetActive(false);
+
+        currentInput = correctValue.ToString();
+        hasDecimal = currentInput.Contains(".");
+        UpdateField();
+
+        OnAutoFillUsed?.Invoke();
+
+        StopAllCoroutines();
+        StartCoroutine(ShowFeedback(true));
+
+        CompleteCorrectAnswer();
+    }
+
+    // -------- CORRECT ANSWER --------
+
+    void CompleteCorrectAnswer()
+    {
+        isLocked = true;
+        inputField.readOnly = true;
+
+        solvedSlides[slidePageNumber] = true;
+
+        slideManager.EnableNextButton();
+
+        OnCorrectAnswer?.Invoke();
+    }
+
+    // -------- FEEDBACK --------
 
     IEnumerator ShowFeedback(bool correct)
     {

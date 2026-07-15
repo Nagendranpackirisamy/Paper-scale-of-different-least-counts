@@ -25817,82 +25817,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660483406}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &667355467
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 667355468}
-  - component: {fileID: 667355470}
-  - component: {fileID: 667355469}
-  m_Layer: 5
-  m_Name: Container
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &667355468
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667355467}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1661548642}
-  m_Father: {fileID: 876765477}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 350.27667, y: -95.37955}
-  m_SizeDelta: {x: 567.2822, y: 98.8119}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &667355469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667355467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 1509616703, guid: a0a0d8580e576f1419e6e334f09b7bc1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &667355470
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667355467}
-  m_CullTransparentMesh: 1
 --- !u!1 &667575664
 GameObject:
   m_ObjectHideFlags: 0
@@ -27192,7 +27116,7 @@ MonoBehaviour:
   - pageNumber: 3
     targetObjects:
     - {fileID: 984958523}
-    - {fileID: 876765476}
+    - {fileID: 0}
   - pageNumber: 4
     targetObjects:
     - {fileID: 984958523}
@@ -27238,14 +27162,14 @@ MonoBehaviour:
     - {fileID: 2128392550}
   - pageNumber: 18
     targetObjects:
-    - {fileID: 1117387816}
+    - {fileID: 1337385862}
   - pageNumber: 19
     targetObjects:
     - {fileID: 2099095396}
     - {fileID: 984958523}
   - pageNumber: 20
     targetObjects:
-    - {fileID: 258768153}
+    - {fileID: 1334088055}
   - pageNumber: 21
     targetObjects:
     - {fileID: 984958523}
@@ -27290,17 +27214,17 @@ MonoBehaviour:
     - {fileID: 984958523}
   - pageNumber: 35
     targetObjects:
-    - {fileID: 105345471}
+    - {fileID: 1096821951}
   - pageNumber: 36
     targetObjects:
-    - {fileID: 1895408741}
+    - {fileID: 1606766825}
   - pageNumber: 37
     targetObjects:
     - {fileID: 1726929367}
     - {fileID: 984958523}
   - pageNumber: 38
     targetObjects:
-    - {fileID: 1068805586}
+    - {fileID: 1081608520}
 --- !u!1 &701761138
 GameObject:
   m_ObjectHideFlags: 0
@@ -34243,7 +34167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc7888a8b716974eb49f230351ad09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.MCQController
-  slidePageNumber: 17
+  slidePageNumber: 36
   mcqPanel: {fileID: 729121860}
   explanationPanel: {fileID: 729121859}
   questionText: {fileID: 729121858}
@@ -35398,55 +35322,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875224681}
   m_CullTransparentMesh: 1
---- !u!1 &876765476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 876765477}
-  - component: {fileID: 876765478}
-  m_Layer: 5
-  m_Name: Slide3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &876765477
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876765476}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 667355468}
-  m_Father: {fileID: 1105025981}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &876765478
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876765476}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1001 &877252433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38077,7 +37952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc7888a8b716974eb49f230351ad09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.MCQController
-  slidePageNumber: 17
+  slidePageNumber: 35
   mcqPanel: {fileID: 709646597}
   explanationPanel: {fileID: 709646596}
   questionText: {fileID: 709646595}
@@ -42808,6 +42683,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081182739}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1081608520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4611879653396418795, guid: 148e3734bc293a24eb6c0538bc2684e5, type: 3}
+  m_PrefabInstance: {fileID: 1758491265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1082875529
 GameObject:
   m_ObjectHideFlags: 0
@@ -43034,6 +42914,11 @@ RectTransform:
   m_AnchoredPosition: {x: 758.8393, y: -280.03812}
   m_SizeDelta: {x: 1317.6791, y: 220.0764}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1096821951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4611879653396418795, guid: 148e3734bc293a24eb6c0538bc2684e5, type: 3}
+  m_PrefabInstance: {fileID: 709646580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1103968900
 GameObject:
   m_ObjectHideFlags: 0
@@ -43273,7 +43158,6 @@ RectTransform:
   - {fileID: 1369807314}
   - {fileID: 1036037695}
   - {fileID: 549980982}
-  - {fileID: 876765477}
   - {fileID: 155374156}
   - {fileID: 1726929368}
   - {fileID: 2099095397}
@@ -44045,7 +43929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc7888a8b716974eb49f230351ad09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.MCQController
-  slidePageNumber: 17
+  slidePageNumber: 18
   mcqPanel: {fileID: 1604144633}
   explanationPanel: {fileID: 1604144632}
   questionText: {fileID: 1604144631}
@@ -51940,6 +51824,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5101004418341270791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1334088055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4611879653396418795, guid: 148e3734bc293a24eb6c0538bc2684e5, type: 3}
+  m_PrefabInstance: {fileID: 1905786095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334297430
 GameObject:
   m_ObjectHideFlags: 0
@@ -52296,6 +52185,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336332780}
   m_CullTransparentMesh: 1
+--- !u!1 &1337385862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4611879653396418795, guid: 148e3734bc293a24eb6c0538bc2684e5, type: 3}
+  m_PrefabInstance: {fileID: 1604144616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1346311154
 GameObject:
   m_ObjectHideFlags: 0
@@ -56015,7 +55909,7 @@ MonoBehaviour:
   - pageNumber: 4
     pageText: Drag and drop the metre scale along the length of the paper.
     overrideRect: 1
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 5
     pageText: Click on the pencil to place it along the metre scale. Then drag it
@@ -56111,7 +56005,7 @@ MonoBehaviour:
       the diagonal line and the other end touches one of the 30 lines perpendicular
       to line AB.
     overrideRect: 1
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 20
     pageText: Place the needle on the paper scale so that one end of the needle touches
@@ -56129,7 +56023,7 @@ MonoBehaviour:
   - pageNumber: 22
     pageText: Drag and drop the metre scale along the length of the paper.
     overrideRect: 1
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 23
     pageText: Drag the pencil along the metre scale and draw a line AB, of length
@@ -56141,7 +56035,7 @@ MonoBehaviour:
     pageText: Mark very small dots on line AB by dragging the pencil after every
       1 cm.
     overrideRect: 0
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 25
     pageText: Write 0, 1, 2 .... 30 in the boxes near each successive dot.
@@ -56152,7 +56046,7 @@ MonoBehaviour:
     pageText: Click on the metre scale to fix it perpendicular to line AB at point
       A.
     overrideRect: 0
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 27
     pageText: Draw a straight line of 2 cm length perpendicular to line AB at point
@@ -56217,7 +56111,7 @@ MonoBehaviour:
       needle touches the diagonal line and the other end touches one from the 30
       lines perpendicular to line AB.
     overrideRect: 1
-    anchoredPosition: {x: 1100, y: -65}
+    anchoredPosition: {x: 843, y: -65}
     sizeDelta: {x: 753.0459, y: 137.8303}
   - pageNumber: 38
     pageText: Drag and drop the needle on the paper scale so that one end of the
@@ -62295,7 +62189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc7888a8b716974eb49f230351ad09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.MCQController
-  slidePageNumber: 17
+  slidePageNumber: 38
   mcqPanel: {fileID: 1758491282}
   explanationPanel: {fileID: 1758491281}
   questionText: {fileID: 1758491280}
@@ -63288,6 +63182,11 @@ RectTransform:
   m_AnchoredPosition: {x: 758.8393, y: -280.03812}
   m_SizeDelta: {x: 1317.6791, y: 220.0764}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1606766825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4611879653396418795, guid: 148e3734bc293a24eb6c0538bc2684e5, type: 3}
+  m_PrefabInstance: {fileID: 729121843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1610277935
 GameObject:
   m_ObjectHideFlags: 0
@@ -64921,143 +64820,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661195191}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1661548641
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1661548642}
-  - component: {fileID: 1661548644}
-  - component: {fileID: 1661548643}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1661548642
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661548641}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 667355468}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 243.5578, y: 37.5549}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1661548643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661548641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Tap to fold the paper
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1661548644
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661548641}
-  m_CullTransparentMesh: 1
 --- !u!1 &1662452659
 GameObject:
   m_ObjectHideFlags: 0
@@ -82101,7 +81863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffc7888a8b716974eb49f230351ad09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::paperScaleOfDifferentLeastCounts.MCQController
-  slidePageNumber: 17
+  slidePageNumber: 20
   mcqPanel: {fileID: 1905786112}
   explanationPanel: {fileID: 1905786111}
   questionText: {fileID: 1905786110}

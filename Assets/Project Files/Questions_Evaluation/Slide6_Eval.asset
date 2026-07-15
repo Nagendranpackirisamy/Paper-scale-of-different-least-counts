@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
+  m_Name: Slide6_Eval
+  m_EditorClassIdentifier: 
+  questionText: 6. Observe the scale and find its least count
+  referenceImage: {fileID: 0}
+  explanationText: 'Since there are two division of one centimeter length so least
+    count = one centimeter / no of division due to diagonal line
+
+
+    Least count
+    =1 cm / 2
+
+
+    Least count = 0.5 cm'
+  options:
+  - '2 cm  '
+  - '0.2 cm '
+  - 5 cm
+  - 0.5 cm
+  correctOptionIndex: 3
+  correctDropId: 
+  correctValue: 0
+  tolerance: 0.1
