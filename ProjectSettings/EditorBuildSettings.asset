@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LevelDesign.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mainmenu.unity
     guid: 9ce8f7fd431f0aa43bd191b45549a298
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Paper Scale Experiment scene.unity
     guid: 88ea537e43b886740a32a6296d0829fc
   - enabled: 1
