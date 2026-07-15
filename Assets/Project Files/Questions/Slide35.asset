@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Slide35
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: Intersection of this diagonal line with the line parallel to AB at
+    A1 is 0.5 cm in length.
   referenceImage: {fileID: 0}
-  explanationText: 
-  options: []
+  explanationText: The diagonal line from D divides 1 cm in two divisions. So A1
+    intersects at 0.5 cm length.
+  options:
+  - True
+  - False
+  - Both True and False
+  - Neither True nor False
   correctOptionIndex: 0
   correctDropId: 
   correctValue: 0

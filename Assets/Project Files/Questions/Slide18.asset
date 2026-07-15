@@ -12,11 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Slide18
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: 'Why is the least count of the given paper scale 0.2
+
+    A4 cm?'
   referenceImage: {fileID: 0}
-  explanationText: 
-  options: []
-  correctOptionIndex: 0
+  explanationText: The diagonal line from D divides 1 cm in five proportional and
+    similar divisions. So the least count = (1 cm)/5 = 0.2 cm. This is the minimum
+    length we can measure with 100% accuracy or to be exact at this scale.
+  options:
+  - Since the scale has 30 divisions in 30 cm
+  - Since the diagonal line from D divides 1 cm into five proportional and similar
+    divisions
+  - Since the diagonal line from D divides 1 cm into four proportional and similar
+    divisions
+  - None of these
+  correctOptionIndex: 1
   correctDropId: 
   correctValue: 0
   tolerance: 0.1

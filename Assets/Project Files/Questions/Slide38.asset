@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b9a0edb0b451247bd6ddb2536d2769, type: 3}
   m_Name: Slide38
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What is the correct length of the needle?
   referenceImage: {fileID: 0}
-  explanationText: 
-  options: []
+  explanationText: 'The least count of the paper scale is 0.5 cm
+
+
+    So the length
+    of the needle = 2 cm + 0.5 cm = 2.5 cm'
+  options:
+  - '2.5 cm  '
+  - '2.0 cm '
+  - '3.0 cm  '
+  - 2.4 cm
   correctOptionIndex: 0
   correctDropId: 
   correctValue: 0
